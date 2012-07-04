@@ -1,0 +1,13 @@
+﻿
+!!! 5
+html
+	head
+		meta(charset='utf-8')
+		title=123
+	body
+		h2.c#h test
+		p 
+			| 123
+			| 324
+		foot
+			p &copy;
