@@ -1,0 +1,138 @@
+info it worked if it ends with ok
+verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'publish',
+verbose cli   './' ]
+info using npm@1.1.21
+info using node@v0.6.17
+verbose C:\Program Files (x86)\nodejs\\node.exe node symlink
+verbose config file C:\Users\Administrator\.npmrc
+verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+verbose publish [ './' ]
+verbose caching C:\Users\Administrator\Documents\GitHub\ChinaMVC\package.json
+verbose loadDefaults ChinaMVC@0.1.0
+info prepublish ChinaMVC@0.1.0
+verbose cache add [ './', null ]
+silly cache add: name, spec, args [ undefined, './', [ './', null ] ]
+verbose parsed url { pathname: './', path: './', href: './' }
+verbose caching package.json
+verbose loadDefaults ChinaMVC@0.1.0
+verbose tar.pack [ 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\npm-1341381648140\\1341381648140-0.40664027701132\\tmp.tgz',
+verbose tar.pack   './' ]
+verbose tarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-1341381648140\1341381648140-0.40664027701132\tmp.tgz
+verbose folder ./
+verbose unpack C:\Users\ADMINI~1\AppData\Local\Temp\npm-1341381648140\1341381648140-0.40664027701132\tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry .npmignore
+silly modified mode [ '.npmignore', 438, 420 ]
+silly extracting entry app.js
+silly modified mode [ 'app.js', 292, 420 ]
+silly extracting entry favicon.ico
+silly modified mode [ 'favicon.ico', 438, 420 ]
+silly extracting entry controllers/home/about/get.js
+silly modified mode [ 'controllers/home/about/get.js', 292, 420 ]
+silly extracting entry controllers/home/index/get.js
+silly modified mode [ 'controllers/home/index/get.js', 292, 420 ]
+silly extracting entry .gitattributes
+silly modified mode [ '.gitattributes', 438, 420 ]
+silly extracting entry views/home/about.txt
+silly modified mode [ 'views/home/about.txt', 292, 420 ]
+silly extracting entry views/home/index.txt
+silly modified mode [ 'views/home/index.txt', 292, 420 ]
+silly extracting entry robots.txt
+silly modified mode [ 'robots.txt', 438, 420 ]
+silly extracting entry web.config
+silly modified mode [ 'web.config', 438, 420 ]
+verbose caching C:\Users\ADMINI~1\AppData\Local\Temp\npm-1341381648140\1341381648140-0.40664027701132\package\package.json
+verbose loadDefaults ChinaMVC@0.1.0
+verbose from cache C:\Users\ADMINI~1\AppData\Local\Temp\npm-1341381648140\1341381648140-0.40664027701132\package\package.json
+verbose tar.pack [ 'C:\\Users\\Administrator\\AppData\\Roaming\\npm-cache\\ChinaMVC\\0.1.0\\package.tgz',
+verbose tar.pack   'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\npm-1341381648140\\1341381648140-0.40664027701132\\package' ]
+verbose tarball C:\Users\Administrator\AppData\Roaming\npm-cache\ChinaMVC\0.1.0\package.tgz
+verbose folder C:\Users\ADMINI~1\AppData\Local\Temp\npm-1341381648140\1341381648140-0.40664027701132\package
+verbose unpack C:\Users\Administrator\AppData\Roaming\npm-cache\ChinaMVC\0.1.0\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry .npmignore
+silly modified mode [ '.npmignore', 438, 420 ]
+silly extracting entry app.js
+silly modified mode [ 'app.js', 438, 420 ]
+silly extracting entry .gitattributes
+silly modified mode [ '.gitattributes', 438, 420 ]
+silly extracting entry controllers/home/about/get.js
+silly modified mode [ 'controllers/home/about/get.js', 438, 420 ]
+silly extracting entry controllers/home/index/get.js
+silly modified mode [ 'controllers/home/index/get.js', 438, 420 ]
+silly extracting entry favicon.ico
+silly modified mode [ 'favicon.ico', 438, 420 ]
+silly extracting entry robots.txt
+silly modified mode [ 'robots.txt', 438, 420 ]
+silly extracting entry views/home/about.txt
+silly modified mode [ 'views/home/about.txt', 438, 420 ]
+silly extracting entry views/home/index.txt
+silly modified mode [ 'views/home/index.txt', 438, 420 ]
+silly extracting entry web.config
+silly modified mode [ 'web.config', 438, 420 ]
+verbose caching C:\Users\Administrator\AppData\Roaming\npm-cache\ChinaMVC\0.1.0\package\package.json
+verbose loadDefaults ChinaMVC@0.1.0
+silly updated sha bytes 18189
+info shasum b2ec9d9c53150300141d52bf29133e21a7f0acf4
+info shasum C:\Users\Administrator\AppData\Roaming\npm-cache\ChinaMVC\0.1.0\package.tgz
+verbose from cache C:\Users\Administrator\AppData\Roaming\npm-cache\ChinaMVC\0.1.0\package\package.json
+verbose chmod C:\Users\Administrator\AppData\Roaming\npm-cache\ChinaMVC\0.1.0\package.tgz 644
+silly skipping chown for windows C:\Users\Administrator\AppData\Roaming\npm-cache\ChinaMVC\0.1.0\package.tgz
+silly publish { author: 
+silly publish    { name: 'Lichun',
+silly publish      email: 'lchrennew@126.com',
+silly publish      url: 'https://github.com/lchrennew' },
+silly publish   name: 'ChinaMVC',
+silly publish   description: 'The first MVC framework made in China.',
+silly publish   version: '0.1.0',
+silly publish   homepage: 'https://github.com/lchrennew/ChinaMVC',
+silly publish   repository: { url: 'https://github.com/lchrennew/ChinaMVC.git' },
+silly publish   dependencies: {},
+silly publish   devDependencies: {},
+silly publish   optionalDependencies: {},
+silly publish   engines: { node: '*' },
+silly publish   _npmUser: { name: 'lchrennew', email: 'lchrennew@126.com' },
+silly publish   _id: 'ChinaMVC@0.1.0',
+silly publish   _engineSupported: true,
+silly publish   _npmVersion: '1.1.21',
+silly publish   _nodeVersion: 'v0.6.17',
+silly publish   _defaultsLoaded: true,
+silly publish   dist: 
+silly publish    { shasum: 'b2ec9d9c53150300141d52bf29133e21a7f0acf4',
+silly publish      tarball: 'http://registry.npmjs.org/ChinaMVC/-/ChinaMVC-0.1.0.tgz' } }
+verbose raw, before any munging ChinaMVC
+verbose url resolving [ 'https://registry.npmjs.org/', './ChinaMVC' ]
+verbose url resolved https://registry.npmjs.org/ChinaMVC
+http PUT https://registry.npmjs.org/ChinaMVC
+http 403 https://registry.npmjs.org/ChinaMVC
+ERR! Failed PUT response 403
+ERR! Error: forbidden New packages must have all-lowercase names: ChinaMVC
+ERR!     at Request._callback (C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\npm-registry-client\request.js:183:12)
+ERR!     at Request.callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\main.js:119:22)
+ERR!     at Request.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\main.js:605:16)
+ERR!     at Request.emit (events.js:67:17)
+ERR!     at IncomingMessage.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\main.js:564:14)
+ERR!     at IncomingMessage.emit (events.js:88:20)
+ERR!     at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:127:21)
+ERR!     at CleartextStream.ondata (http.js:1176:24)
+ERR!     at CleartextStream._push (tls.js:375:27)
+ERR!     at SecurePair.cycle (tls.js:734:20)
+ERR! You may report this log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Windows_NT 6.1.7601
+ERR! command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "./"
+ERR! cwd C:\Users\Administrator\Documents\GitHub\ChinaMVC
+ERR! node -v v0.6.17
+ERR! npm -v 1.1.21
+ERR! message forbidden New packages must have all-lowercase names: ChinaMVC
+verbose exit [ 1, true ]

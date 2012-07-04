@@ -1,0 +1,16 @@
+{
+  "author": "Lichun <lchrennew@126.com> (https://github.com/lchrennew)",
+  "name": "ChinaMVC",
+  "description": "The first MVC framework made in China.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/lchrennew/ChinaMVC",
+  "repository": {
+    "url": "https://github.com/lchrennew/ChinaMVC.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
