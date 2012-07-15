@@ -37,3 +37,62 @@ HOW TO USE
 ================
 
 RESTful Web/API
+--------
+    // app.js
+    // RESTfull routes
+    // SELECT
+    app.get(/.+\/.*/, function(req, res) {
+        (new mvc.context(req, res)).invoke();
+    });
+    
+    // INSERT
+    app.post(/.+\/.*/, function(req, res) {
+        (new mvc.context(req, res)).invoke();
+    });
+    
+    // DELETE
+    app.del(/.+\/.*/, function(req, res) {
+        (new mvc.context(req, res)).invoke();
+    });
+    
+    // UPDATE
+    app.put(/.+\/.*/, function(req, res) {
+        (new mvc.context(req, res)).invoke();
+    });
+
+Customized route
+--------
+    // app.js
+    
+    // route for homepage, controller is 'home' and view is 'index'
+    app.get('/', function(req, res) {
+        (new mvc.context(req, res)).invoke('home', 'index');
+    });
+
+Using Sub Views
+---------
+    // a controller, e.g. /home/index/get.js
+    var subViews = ['view1', 'view2', 'view3'];
+    exports.render = function (context) {
+        var subView = subViews[Math.floor(Math.random()*100)%3];
+        context.view({ layout: false }, subView);
+    };
+
+Store View Templates in Databases(or any other storage)
+---------
+    // This feature is very useful for CMS ect.
+    // callback(err<exception>, template<string>)
+    function getTemplate(id, callback){
+        var template = '!!! 5'; // TODO: get template content from storage.
+        callback && callback(null, template);
+    }
+    exports.render = function (context) {
+        getTemplate(context.request.params['id'], function(err, template){
+            var render = jade.compile(template);
+            
+            // view model
+            var vm = {};
+            
+            context.response.send(render({ vm: vm }));
+        });
+    };
